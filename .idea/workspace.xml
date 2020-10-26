@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39d0aa93-ab3f-4904-b733-006bb2386acc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Model/Connection.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/View/insert.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insert.php" beforeDir="false" afterPath="$PROJECT_DIR$/insert.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +41,9 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -50,6 +52,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -67,7 +70,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603703596352</updated>
-      <workItem from="1603703597598" duration="2292000" />
+      <workItem from="1603703597598" duration="2888000" />
     </task>
     <servers />
   </component>
@@ -86,10 +89,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="437" y="222" width="554" height="410" key="#com.jetbrains.php.debug.validation.PhpWebServerValidationDialog#" timestamp="1603704118883">
+    <state x="437" y="222" width="554" height="410" key="#com.jetbrains.php.debug.validation.PhpWebServerValidationDialog#" timestamp="1603707490092">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state x="437" y="222" width="554" height="410" key="#com.jetbrains.php.debug.validation.PhpWebServerValidationDialog#/72.27.1294.741@72.27.1294.741" timestamp="1603704118883" />
+    <state x="437" y="222" width="554" height="410" key="#com.jetbrains.php.debug.validation.PhpWebServerValidationDialog#/72.27.1294.741@72.27.1294.741" timestamp="1603707490092" />
     <state x="455" y="250" width="518" height="301" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1603703870879">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
