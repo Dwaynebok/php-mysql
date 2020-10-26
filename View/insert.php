@@ -5,21 +5,21 @@ ini_set('display_errors', '1');
 ini_set('display_startup_errors', '1');
 error_reporting(E_ALL);
 
-session_start();
+//session_start();
 
-function whatIsHappening()
-{
-    echo '<h2>$_GET</h2>';
-    var_dump($_GET);
-    echo '<h2>$_POST</h2>';
-    var_dump($_POST);
-    echo '<h2>$_COOKIE</h2>';
-    var_dump($_COOKIE);
-    echo '<h2>$_SESSION</h2>';
-    var_dump($_SESSION);
-}
+//function whatIsHappening()
+//{
+  //  echo '<h2>$_GET</h2>';
+    //var_dump($_GET);
+    //echo '<h2>$_POST</h2>';
+    //var_dump($_POST);
+    //echo '<h2>$_COOKIE</h2>';
+    //var_dump($_COOKIE);
+    //echo '<h2>$_SESSION</h2>';
+    //var_dump($_SESSION);
+//}
 
-whatIsHappening();
+//whatIsHappening();
 
 
 ?>
@@ -43,13 +43,13 @@ whatIsHappening();
         <div class="form-group col-md-6">
             <label for="firstname">First Name:</label>
             <input type="text" name="firstname" id="firstname" class="form-control" value="">
-         <!--   <span class="error"> <?php echo $streetErr;?></span>-->
+
             <br><br>
         </div>
         <div class="form-group col-md-6">
             <label for="lastname">Last Name:</label>
             <input type="text" id="lastname" name="lastname" class="form-control" value="">
-          <!--  <span class="error"> <?php echo $streetNumberErr;?></span>-->
+
             <br><br>
         </div>
 
@@ -58,7 +58,7 @@ whatIsHappening();
                     <label for="email">E-mail:</label>
                     <input type="text" id="email" name="email" class="form-control" value=""/>
                 </div>
-              <!--  <span class="error"> <?php echo $emailErr;?></span>-->
+
 
                 <br>
                 <div></div>
@@ -66,8 +66,8 @@ whatIsHappening();
 
     </div>
 
-        <button type="button">Click Me!</button>
-
+        <button type="submit" name="submit" >Click Me!</button>
+    </form>
 
 
 

@@ -20,11 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39d0aa93-ab3f-4904-b733-006bb2386acc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Controller.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/Connection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/Student_Insert.php" beforeDir="false" afterPath="$PROJECT_DIR$/Model/Student_Insert.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/insert.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/insert.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insert.php" beforeDir="false" afterPath="$PROJECT_DIR$/insert.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +48,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../oop-pricecalculator" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../php-debugging" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -73,7 +73,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603703596352</updated>
-      <workItem from="1603703597598" duration="9195000" />
+      <workItem from="1603703597598" duration="17403000" />
     </task>
     <servers />
   </component>
@@ -92,10 +92,18 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="72" y="250" width="1284" height="301" key="#SQL_Dialects" timestamp="1603725863636">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="72" y="250" width="1284" height="301" key="#SQL_Dialects/72.27.1294.741@72.27.1294.741" timestamp="1603725863636" />
     <state x="314" y="59" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603718235565">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="314" y="59" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1294.741@72.27.1294.741" timestamp="1603718235565" />
+    <state x="527" y="116" width="408" height="569" key="#com.intellij.ide.util.MemberChooser" timestamp="1603722623146">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="527" y="116" width="408" height="569" key="#com.intellij.ide.util.MemberChooser/72.27.1294.741@72.27.1294.741" timestamp="1603722623146" />
     <state x="534" y="209" width="351" height="391" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1603719077081">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
@@ -108,18 +116,18 @@
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="455" y="250" width="518" height="301" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/72.27.1294.741@72.27.1294.741" timestamp="1603703870879" />
-    <state x="502" y="155" width="424" height="491" key="FileChooserDialogImpl" timestamp="1603718785557">
+    <state x="502" y="155" width="424" height="491" key="FileChooserDialogImpl" timestamp="1603725019735">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state x="502" y="155" width="424" height="491" key="FileChooserDialogImpl/72.27.1294.741@72.27.1294.741" timestamp="1603718785557" />
-    <state x="521" y="117" width="386" height="568" key="NewPhpClassDialog" timestamp="1603719060570">
+    <state x="502" y="155" width="424" height="491" key="FileChooserDialogImpl/72.27.1294.741@72.27.1294.741" timestamp="1603725019735" />
+    <state x="521" y="117" width="417" height="603" key="NewPhpClassDialog" timestamp="1603725341526">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state x="521" y="117" width="386" height="568" key="NewPhpClassDialog/72.27.1294.741@72.27.1294.741" timestamp="1603719060570" />
-    <state x="514" y="323" width="399" height="156" key="NewPhpFileDialog" timestamp="1603703851287">
+    <state x="521" y="117" width="417" height="603" key="NewPhpClassDialog/72.27.1294.741@72.27.1294.741" timestamp="1603725341526" />
+    <state x="514" y="323" width="399" height="156" key="NewPhpFileDialog" timestamp="1603721949584">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state x="514" y="323" width="399" height="156" key="NewPhpFileDialog/72.27.1294.741@72.27.1294.741" timestamp="1603703851287" />
+    <state x="514" y="323" width="399" height="156" key="NewPhpFileDialog/72.27.1294.741@72.27.1294.741" timestamp="1603721949584" />
     <state x="208" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1603719111599">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
@@ -128,9 +136,13 @@
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="410" y="107" width="618" height="580" key="find.popup/72.27.1294.741@72.27.1294.741" timestamp="1603717342314" />
-    <state x="382" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1603711345759">
+    <state x="383" y="174" key="run.anything.popup" timestamp="1603722615715">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state x="382" y="89" width="672" height="678" key="search.everywhere.popup/72.27.1294.741@72.27.1294.741" timestamp="1603711345759" />
+    <state x="383" y="174" key="run.anything.popup/72.27.1294.741@72.27.1294.741" timestamp="1603722615715" />
+    <state x="382" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1603727215848">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="382" y="89" width="672" height="678" key="search.everywhere.popup/72.27.1294.741@72.27.1294.741" timestamp="1603727215848" />
   </component>
 </project>

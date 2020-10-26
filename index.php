@@ -7,3 +7,9 @@ error_reporting(E_ALL);
 require_once "Model/DatabaseConnection.php";
 require_once "Model/Student.php";
 require_once "Model/StudentLoader.php";
+require_once "Controller/Controller.php";
+require_once "Model/Student_Insert.php";
+require_once "View/insert.php";
+
+$controller = new Controller();
+$controller->render();

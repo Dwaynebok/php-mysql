@@ -4,11 +4,11 @@
 class Student_Insert extends DatabaseConnection
 {
 
-    public function __construct($name, $l_name, $email)
+    public function __construct($name, $lname, $email)
     {
-        $handle = $this->Connection()->prepare('INSERT INTO user (firstname, lastname, email) VALUES (:firstname, :lastname, :email)');
+        $handle = $this->Connection()->prepare('INSERT INTO student (first_name, last_name, email) VALUES (:firstname, :lastname, :email)');
         $handle->bindValue(':firstname', $name);
-        $handle->bindValue(':lastname', $l_name);
+        $handle->bindValue(':lastname', $lname);
         $handle->bindValue(':email', $email);
         $handle->execute();
 
