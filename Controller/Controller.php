@@ -8,7 +8,7 @@ class Controller
          $name = $_POST['firstname'];
          $l_name = $_POST['lastname'];
          $email = $_POST['email'];
-         var_dump($email);
+         //var_dump($email);
          $students = new Student_Insert($name, $l_name, $email);
          return $students;
      }

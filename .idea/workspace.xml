@@ -22,9 +22,6 @@
     <list default="true" id="39d0aa93-ab3f-4904-b733-006bb2386acc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controller/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/Controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/Student_Insert.php" beforeDir="false" afterPath="$PROJECT_DIR$/Model/Student_Insert.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/insert.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/insert.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +70,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603703596352</updated>
-      <workItem from="1603703597598" duration="17403000" />
+      <workItem from="1603703597598" duration="18093000" />
     </task>
     <servers />
   </component>
