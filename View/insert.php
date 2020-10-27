@@ -69,6 +69,15 @@ error_reporting(E_ALL);
         <button type="submit" name="submit" >Click Me!</button>
     </form>
 
+    <!--table-->
+
+    <table>
+        <tr>
+            <td>First Name</td>
+            <td>Last Name</td>
+            <td>Employee Id</td>
+        </tr>
+
 
 
 
