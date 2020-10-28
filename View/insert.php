@@ -5,19 +5,6 @@ ini_set('display_errors', '1');
 ini_set('display_startup_errors', '1');
 error_reporting(E_ALL);
 
-//session_start();
-
-//function whatIsHappening()
-//{
-  //  echo '<h2>$_GET</h2>';
-    //var_dump($_GET);
-    //echo '<h2>$_POST</h2>';
-    //var_dump($_POST);
-    //echo '<h2>$_COOKIE</h2>';
-    //var_dump($_COOKIE);
-    //echo '<h2>$_SESSION</h2>';
-    //var_dump($_SESSION);
-//}
 
 //whatIsHappening();
 
@@ -39,19 +26,19 @@ error_reporting(E_ALL);
 <fieldset>
     <legend>Fill Me</legend>
     <form method="post">
-    <div class="form-row">
-        <div class="form-group col-md-6">
-            <label for="firstname">First Name:</label>
-            <input type="text" name="firstname" id="firstname" class="form-control" value="">
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="firstname">First Name:</label>
+                <input type="text" name="firstname" id="firstname" class="form-control" value="">
 
-            <br><br>
-        </div>
-        <div class="form-group col-md-6">
-            <label for="lastname">Last Name:</label>
-            <input type="text" id="lastname" name="lastname" class="form-control" value="">
+                <br><br>
+            </div>
+            <div class="form-group col-md-6">
+                <label for="lastname">Last Name:</label>
+                <input type="text" id="lastname" name="lastname" class="form-control" value="">
 
-            <br><br>
-        </div>
+                <br><br>
+            </div>
 
             <div class="form-row">
                 <div class="form-group col-md-6">
@@ -64,21 +51,37 @@ error_reporting(E_ALL);
                 <div></div>
             </div>
 
-    </div>
+        </div>
 
-        <button type="submit" name="submit" >Click Me!</button>
+        <button type="submit" name="submit">Click Me!</button>
     </form>
+</fieldset>
 
-    <!--table-->
 
+<?php
+if (!empty($students)) {
+foreach ($students
+
+as $student): ?>
+<tr class="table-row">
+    <td><?php echo $student["first_name"]; ?></td>
+    <td><?php echo $student["last_name"]; ?></td>
+    <td><?php echo $student["email"]; ?></td>
+    <?php endforeach;
+    }
+    ?>
+
+    <!--table
     <table>
         <tr>
             <td>First Name</td>
             <td>Last Name</td>
-            <td>Employee Id</td>
+            <td>Email</td>
+            <td>
+               <p><a href="index.php?page=display">link</a></p>
+            </td>
         </tr>
-
-
+        -->
 
 
 </body>

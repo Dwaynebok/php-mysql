@@ -20,8 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39d0aa93-ab3f-4904-b733-006bb2386acc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Controller/overVIewController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controller/profileController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Profile.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/overView.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/profile.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/DatabaseConnection.php" beforeDir="false" afterPath="$PROJECT_DIR$/Model/DatabaseConnection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/Student.php" beforeDir="false" afterPath="$PROJECT_DIR$/Model/Student.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/StudentLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/Model/StudentLoader.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/View/insert.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/insert.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +42,13 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -45,7 +64,8 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../php-debugging" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../oop-pricecalculator" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -59,6 +79,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Controller" />
       <recent name="$PROJECT_DIR$/View" />
     </key>
   </component>
@@ -70,7 +91,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603703596352</updated>
-      <workItem from="1603703597598" duration="22325000" />
+      <workItem from="1603703597598" duration="26455000" />
+      <workItem from="1603798054769" duration="32748000" />
     </task>
     <servers />
   </component>
@@ -87,20 +109,21 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="72" y="250" width="1284" height="301" key="#SQL_Dialects" timestamp="1603725863636">
+    <state x="72" y="250" width="1284" height="301" key="#SQL_Dialects" timestamp="1603893040178">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state x="72" y="250" width="1284" height="301" key="#SQL_Dialects/72.27.1294.741@72.27.1294.741" timestamp="1603725863636" />
+    <state x="72" y="250" width="1284" height="301" key="#SQL_Dialects/72.27.1294.741@72.27.1294.741" timestamp="1603893040178" />
     <state x="314" y="59" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603718235565">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="314" y="59" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1294.741@72.27.1294.741" timestamp="1603718235565" />
-    <state x="527" y="116" width="408" height="569" key="#com.intellij.ide.util.MemberChooser" timestamp="1603722623146">
+    <state x="527" y="116" width="441" height="576" key="#com.intellij.ide.util.MemberChooser" timestamp="1603885436200">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state x="527" y="116" width="408" height="569" key="#com.intellij.ide.util.MemberChooser/72.27.1294.741@72.27.1294.741" timestamp="1603722623146" />
+    <state x="527" y="116" width="441" height="576" key="#com.intellij.ide.util.MemberChooser/72.27.1294.741@72.27.1294.741" timestamp="1603885436200" />
     <state x="534" y="209" width="351" height="391" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1603719077081">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
@@ -113,18 +136,18 @@
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="455" y="250" width="518" height="301" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/72.27.1294.741@72.27.1294.741" timestamp="1603703870879" />
-    <state x="502" y="155" width="424" height="491" key="FileChooserDialogImpl" timestamp="1603725019735">
+    <state x="502" y="155" width="424" height="491" key="FileChooserDialogImpl" timestamp="1603874185923">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state x="502" y="155" width="424" height="491" key="FileChooserDialogImpl/72.27.1294.741@72.27.1294.741" timestamp="1603725019735" />
-    <state x="521" y="117" width="417" height="603" key="NewPhpClassDialog" timestamp="1603725341526">
+    <state x="502" y="155" width="424" height="491" key="FileChooserDialogImpl/72.27.1294.741@72.27.1294.741" timestamp="1603874185923" />
+    <state x="521" y="117" width="417" height="603" key="NewPhpClassDialog" timestamp="1603901581789">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state x="521" y="117" width="417" height="603" key="NewPhpClassDialog/72.27.1294.741@72.27.1294.741" timestamp="1603725341526" />
-    <state x="514" y="323" width="399" height="156" key="NewPhpFileDialog" timestamp="1603721949584">
+    <state x="521" y="117" width="417" height="603" key="NewPhpClassDialog/72.27.1294.741@72.27.1294.741" timestamp="1603901581789" />
+    <state x="514" y="323" width="399" height="156" key="NewPhpFileDialog" timestamp="1603901810369">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state x="514" y="323" width="399" height="156" key="NewPhpFileDialog/72.27.1294.741@72.27.1294.741" timestamp="1603721949584" />
+    <state x="514" y="323" width="399" height="156" key="NewPhpFileDialog/72.27.1294.741@72.27.1294.741" timestamp="1603901810369" />
     <state x="208" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1603719111599">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
