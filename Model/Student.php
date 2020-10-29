@@ -72,15 +72,15 @@ class Student extends DatabaseConnection
 
 
 //edit student
-//public function editStudents(PDO $data)
-//{
-  //  $handle = $data->prepare('UPDATE class SET firstname = :firstname, lastname = :lastname , WHERE email = :email');
-   // $handle->bindValue('firstname', $this->getFirstname());
-    //$handle->bindValue('lastname', $this->getLastname());
-    //$handle->bindValue('email', $this->getEmail());
+public function editStudents(PDO $data)
+{
+    $handle = $data->prepare('UPDATE class SET firstname = :firstname, lastname = :lastname , WHERE email = :email');
+    $handle->bindValue('firstname', $this->getFirstname());
+    $handle->bindValue('lastname', $this->getLastname());
+    $handle->bindValue('email', $this->getEmail());
 
-    //$handle->execute();
-//}
+    $handle->execute();
+}
 
 //delete student
 public function deleteStudent(PDO $data)
